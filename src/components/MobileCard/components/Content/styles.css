@@ -46,7 +46,10 @@
   display: flex;
   flex-direction: column;
 }
-
+.message-content p {
+  word-wrap: break-word; /* or overflow-wrap: break-word */
+  word-break: break-all;
+}
 .message-content img {
   max-width: 100%;
   border-radius: 10px;
