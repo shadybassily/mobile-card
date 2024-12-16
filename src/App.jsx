@@ -1,11 +1,7 @@
-import { MobileCard } from "@/components/MobileCard";
+import HomePage from "./pages/HomePage";
 import "./styles/global.css";
 function App() {
-  return (
-    <div className="container">
-      <MobileCard />
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;

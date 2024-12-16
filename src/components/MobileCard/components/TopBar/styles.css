@@ -1,0 +1,89 @@
+.top-bar {
+  background-color: var(--primary-color);
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  box-shadow: 2px 5px 8px rgba(128, 128, 128, 0.256);
+  width: 100%;
+  height: 80px;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.time > p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.system-bar {
+  display: flex;
+  gap: 7px;
+}
+
+.island {
+  position: relative;
+  margin-left: 15px;
+  width: 85px;
+  height: 23px;
+  background-color: #000;
+  border-radius: 40px;
+}
+
+.camera {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: #111;
+  border-radius: 50%;
+}
+
+.camera::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #161a3c;
+}
+
+.camera::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 5px;
+  height: 5px;
+  background: linear-gradient(0, #03344f 0%, #040e27 50%, #3e5191 100%);
+  border-radius: 50%;
+}
+
+.chat-meta-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 20px;
+}
+
+.chat-meta-data img {
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.chat-meta-data p {
+  font-size: 12px;
+  font-weight: bold;
+}

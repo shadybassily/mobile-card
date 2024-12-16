@@ -1,0 +1,97 @@
+.content {
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  position: relative;
+}
+
+.date {
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+  width: fit-content;
+  padding: 2px 15px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px #4a494740;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.date p {
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  background-color: #fff;
+}
+
+.message.left {
+  justify-content: flex-start;
+}
+
+.message-content {
+  position: relative;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-content img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.message-content .dimmed {
+  color: gray;
+}
+
+.message-content .time {
+  color: gray;
+  font-size: 12px;
+  align-self: flex-end;
+}
+
+.message-content .actions {
+  text-align: center;
+}
+
+.message-content .actions div {
+  border-top: 1px solid rgba(128, 128, 128, 0.434);
+  padding: 8px;
+  cursor: pointer;
+  color: #318ce7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.message-content .actions img {
+  width: 17px;
+}
+
+.message-content .actions > div:last-child {
+  padding-bottom: 0;
+}
+
+.message.left .message-content::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  bottom: 2px;
+  transform: translateY(-50%) rotateZ(170deg);
+  border-left: 15px solid #fff;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}

@@ -1,0 +1,12 @@
+.screen {
+  width: 270px;
+  height: 576px;
+  background-image: url("../../../../assets/images/whatsapp-wallpaper.png");
+  background-size: cover;
+  border-radius: 40px;
+  margin-top: 12px;
+  margin-left: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

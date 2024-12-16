@@ -1,0 +1,66 @@
+.iphoneFront {
+  width: 293px;
+  height: 600px;
+  background-color: #000;
+  border-radius: 50px;
+  position: relative;
+}
+
+.outer-frame,
+.inner-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  box-shadow: 0 0 0 1px #4a4947;
+}
+
+.outer-frame {
+  border: 2px solid gray;
+}
+
+.inner-frame {
+  border: 10px solid #000;
+}
+
+.keys .silent,
+.keys .volume-top,
+.keys .volume-bottom,
+.keys .lock {
+  position: absolute;
+  width: 2px;
+  background: linear-gradient(90deg, #888, #555);
+}
+
+.keys .silent,
+.keys .volume-top,
+.keys .volume-bottom {
+  left: -3.5px;
+}
+
+.silent {
+  height: 28px;
+  top: 105px;
+}
+
+.volume-top,
+.volume-bottom {
+  height: 50px;
+}
+
+.volume-top {
+  top: 150px;
+}
+
+.volume-bottom {
+  top: 210px;
+}
+
+.lock {
+  height: 70px;
+  top: 192px;
+  right: -3.5px;
+  background: linear-gradient(-90deg, #888, #555);
+}
