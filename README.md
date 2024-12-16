@@ -28,10 +28,9 @@ This project is a React application built with Vite. It features a mobile-friend
 
 ### Steps to Run the Project
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/shadybassily/mobile-card
-   cd mobile-card
-   npm install
-   npm run dev
-   ```
+```bash
+git clone https://github.com/shadybassily/mobile-card
+cd mobile-card
+npm install
+npm run dev
+```
