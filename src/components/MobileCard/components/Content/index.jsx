@@ -37,7 +37,7 @@ export default function Content({ name, text }) {
               </a>
             </>
             <>
-              <a href={`tel:0201155534662`}>
+              <a href={`tel:0201099999999`}>
                 <div>
                   <img src={icons.Phone} alt="Phone icon" />
                   <p>Call us</p>
