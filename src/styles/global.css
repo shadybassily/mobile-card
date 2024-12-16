@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
 }
 :root {
   height: 100vh;
   --primary-color: #f2f0ef;
+  --dimmed-color: rgba(128, 128, 128, 0.862);
 }
 
 body {
@@ -14,6 +15,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(rgba(70, 55, 55, 0.5), rgba(107, 100, 100, 0.5)),
+    url("../assets/images/whatsapp-wallpaper.png");
+  background-size: cover;
 }
 
 #root {
@@ -51,6 +55,7 @@ a {
 .grid-item {
   padding: 20px;
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {

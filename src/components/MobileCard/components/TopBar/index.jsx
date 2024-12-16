@@ -20,7 +20,7 @@ export default function TopBar() {
       </div>
       <div className="chat-meta-data">
         <img src={icons.Logo} alt="Logo icon" />
-        <p>Communicate</p>
+        <p>communicate</p>
       </div>
     </div>
   );

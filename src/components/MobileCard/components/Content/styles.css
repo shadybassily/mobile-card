@@ -42,7 +42,7 @@
   font-size: 14px;
   line-height: 1.5;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  gap: 10px;
+  gap: 7px;
   display: flex;
   flex-direction: column;
 }
@@ -53,11 +53,11 @@
 }
 
 .message-content .dimmed {
-  color: gray;
+  color: var(--dimmed-color);
 }
 
 .message-content .time {
-  color: gray;
+  color: var(--dimmed-color);
   font-size: 12px;
   align-self: flex-end;
 }

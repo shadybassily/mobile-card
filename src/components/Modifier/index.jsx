@@ -13,7 +13,7 @@ const Modifier = ({ handleNameChange, handleTextChange, name, text }) => {
         </div>
         <div className="form-group">
           <label htmlFor="messageInput" className="form-label">
-            Enter a BIG message to expierence drag on scroll :
+            Enter a BIG message to expierence drag on scroll:
           </label>
           <textarea
             id="messageInput"
