@@ -3,7 +3,7 @@ import { useDragScroll } from "@/utils/hooks/useDragScroll";
 import React from "react";
 import "./styles.css";
 
-export default function Content({ name = "shady" }) {
+export default function Content({ name, text }) {
   const { contentRef, handleMouseDown, handleMouseUp, handleMouseLeave, handleMouseMove } = useDragScroll();
 
   return (
@@ -23,7 +23,7 @@ export default function Content({ name = "shady" }) {
           <img src={images.DummyImage} />
           <p>
             Hello {name}, <br />
-            how are you doing?
+            {text}
           </p>
           <p className="dimmed">Thank you for your time.</p>
           <p className="time">10:30</p>

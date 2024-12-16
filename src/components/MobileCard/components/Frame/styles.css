@@ -1,3 +1,9 @@
+.phone-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .iphoneFront {
   width: 293px;
   height: 600px;
